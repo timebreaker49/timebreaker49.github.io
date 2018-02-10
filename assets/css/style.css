@@ -77,6 +77,18 @@ h2 {
 	margin-left: 10px;
 }
 
+/* made a mistake working with these files but just commenting out in case I... need to come back? .carousel {
+	width: 100%
+	height: 100%;
+	margin: 5%;
+	padding: 25px 0;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+} */
+
 #social-button {
 	width: 70px;
 	height: 70px;
@@ -150,4 +162,145 @@ button {
 	width: 270px;
 	background-color: black;
 	color: white;
+}
+
+
+@media (max-width: 980px) {
+
+.wrapper {
+	width: 100%;
+}
+
+nav {
+	position: static;
+}
+
+nav .logo {
+	max-width: 730px;
+	width: 100%;
+	text-align: center;
+	margin: unset;
+}
+
+.main-content, .aside {
+	float: left;
+	max-width: 640px;
+	width: 100%;
+	margin: 15px 0 15px 0;
+	padding: 25px;
+}
+
+.main-content {
+	margin-top: 70px;
+}
+
+nav ul {
+	list-style: none;
+	float: left; 
+	margin: unset;
+	padding: 0 20px;
+	max-width: 730px;
+	width: 100%;
+	justify-content: space-evenly;
+	background-color: white;
+}
+
+.footer {
+	width: 730px;
+}
+
+
+}
+
+@media (max-width: 768px) {
+
+.wrapper {
+	width: 100%;
+}
+
+nav {
+	position: static;
+}
+
+nav .logo {
+	max-width: 730px;
+	width: 100%;
+	text-align: center;
+	margin: unset;
+}
+
+.main-content, .aside {
+	float: left;
+	max-width: 640px;
+	width: 100%;
+	margin: 15px 0 15px 0;
+	padding: 25px;
+}
+
+.main-content {
+	margin-top: 70px;
+}
+
+nav ul {
+	list-style: none;
+	float: left; 
+	margin: unset;
+	padding: 0 20px;
+	max-width: 730px;
+	width: 100%;
+	justify-content: space-evenly;
+	background-color: white;
+}
+
+.footer {
+	width: 730px;
+}
+
+
+}
+
+@media (max-width: 640px) {
+
+.wrapper {
+	width: 100%;
+}
+
+nav {
+	position: static;
+}
+
+nav .logo {
+	max-width: 730px;
+	width: 100%;
+	text-align: center;
+	margin: unset;
+}
+
+.main-content, .aside {
+	float: left;
+	max-width: 640px;
+	width: 100%;
+	margin: 15px 0 15px 0;
+	padding: 25px;
+}
+
+.main-content {
+	margin-top: 70px;
+}
+
+nav ul {
+	list-style: none;
+	float: left; 
+	margin: unset;
+	padding: 0 20px;
+	max-width: 730px;
+	width: 100%;
+	justify-content: space-evenly;
+	background-color: white;
+}
+
+.footer {
+	width: 730px;
+}
+
 }
