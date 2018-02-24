@@ -1,1 +1,2 @@
-# Hangman-Game
+# Responsive-Portfolio
+Homework 2
