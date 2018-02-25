@@ -1,54 +1,79 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wayne's World - Contact Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    
+      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="navbar-text">
+            Wayne Baylor - Profesional imposter
+        </span>
 
-</head>
-	<body>		
-		<div class="wrapper">
-			<nav>
-				<div class="logo"><h1>Wayne Baylor</h1></div>
-			  	<ul>
-				    <li><a href="index.html">About</a></li>
-				    <li><a href="portfolio.html">Portfolio</a></li>
-				    <li><a href="contact.html">Contact</a></li>
-			  	</ul>
-		  	</nav>
-		</div>
-		<div class="container">
-			<div class="main-content">
-				<form class="form">	
-					<h2>Contact Me</h2>
-					<hr>
-					<div class="group">
-						<label for="name">Name</label>
-				        <input type="text" class="form-name" name="user_name" placeholder="Type your name here"><br />
-				    </div>
-				    <div class="group">
-				    	<label for="email">Email</label>
-				        <input type="email" class="form-email" name="user_mail" placeholder="Email please!"><br />
-				    </div>
-				    <div class="group">
-				    	<label for="msg">Message</label>
-				        <textarea class="form-message" name="user_message"></textarea><br />
-				    </div>
-				 	<div class="button">
-					  <button type="submit">Submit</button>
-					</div>
-				</form>
-			</div>
-			<section class="aside">				
-				<h2>Connect with Me</h2>
-				<img id="social-button" src="assets/images/twitter-icon-circle-logo-400x400.png" alt="Insta">
-				<img id="social-button" src="assets/images/fb_social_icon.png" alt="FB">
-				<img id="social-button" src="assets/images/linkedin_social_circle_black-512.png" alt="LI">
-			</section>
-		</div>
-		<div class="footer">Copyright 2018 Wayne Baylor</div>
-	</body>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form>
+              <h3>Contact me</h3>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Michael Scott">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput2">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Michael.Scott@dundermifflin.com">
+              </div> 
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>  
+              <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </form> 
+          </div>                      
+    
+            <div class="col-md-4">
+              <div class="card card-body">
+                  <h4 class="card-title">Social</h4>
+                  <p class="card-text">Cash me through the following links. (One day I'll clean this up and have a consistent design, promise!)</p>
+                  <div class="flex-row">
+                      <a class="card-link" href="www.linkedin.com/in/wayne-baylor-41134a94" target="_blank">LinkedIn</a>
+                      <a class="card-link" href="https://www.facebook.com/wayne.baylor" target="_blank">Facebook</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
 </html>
